@@ -418,7 +418,7 @@ impl Window {
             let hicon = unsafe {
                 winuser::CreateIconFromResourceEx(
                     icon_data.as_ptr() as PBYTE,
-                    0,
+                    icon_data.len() as u32,
                     TRUE,
                     0x30000,
                     width as i32,
