@@ -18,6 +18,10 @@ systray currently supports:
 
 Cocoa core still needed!
 
+## Alternatives
+* [trayicon-rs](https://github.com/Ciantic/trayicon-rs)  
+* ...
+
 # License
 
 systrayx includes some code
